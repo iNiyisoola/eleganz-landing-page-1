@@ -1,16 +1,14 @@
 export const SignUpSection = () => {
 
   return(
-    <div>
+    <div className="container mx-auto ">
       <form action="">
-        
-        <div className="h-screen">
-          <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8 text-md text-slate-600">
+          <div class="flex mb-0 sm:mb-24 flex-col justify-center px-6 lg:px-8 py-8 md:py-12 text-sm sm:text-md text-slate-600">
             <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-              <h2 class="mt-10 text-center sm:text-lg md:text-4xl text-slate-800 font-bold tracking-tight text-pretty lg:text-balance">Sign Up</h2>
+              <h2 class="mt-10 text-center text-2xl sm:text-4xl md:text-5xl text-slate-800 font-semibold sm:font-bold tracking-tight text-pretty lg:text-balance">Sign Up</h2>
             </div>
 
-            <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div class="mt-5 md:mt-10 sm:mx-auto sm:w-full sm:max-w-sm border-1 shadow-md rounded-md bg-gray-100 px-10 py-8">
               <form class="space-y-6" action="#" method="POST">
                 <div>
                   <label for="firstName" class="block text-md font-medium text-slate-600">First Name</label>
@@ -44,17 +42,11 @@ export const SignUpSection = () => {
                 </div>
 
                 <div>
-                  <button type="submit" class="flex w-full justify-center rounded-md bg-fuchsia-500 px-3 py-1.5 text-md font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fuchsia-500">Sign Up</button>
+                  <button type="submit" class="flex w-full justify-center rounded-md mb-4 bg-fuchsia-500 px-3 py-1.5 text-md font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fuchsia-500">Sign Up</button>
                 </div>
               </form>
-
-              <p class="mt-10 text-center text-md text-slate-600">
-                Not a member?
-                <a href="#" class="text-md font-medium text-slate-600 hover:text-indigo-500"> Start a 14 day free trial</a>
-              </p>
             </div>
           </div>
-        </div>
       </form>
     </div>
   );
