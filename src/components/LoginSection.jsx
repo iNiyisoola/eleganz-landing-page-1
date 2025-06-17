@@ -1,7 +1,7 @@
 export const LoginSection = () => {
 
   return(
-    <div className="container mx-auto bg-gray-500">
+    <div className="container mx-auto">
       <form action="">
         <div class="flex mt-0 sm:mt-24 flex-col items-center justify-center px-6 lg:px-8 py-8 md:py-12 text-sm text-slate-600">
           <div class="sm:mx-auto sm:w-full sm:max-w-sm">

@@ -1,7 +1,7 @@
 export const HeroSection = () => {
 
   return(
-    <div className="container mx-auto h-screen flex items-center justify-center border-b-4 border-fuchsia-500 rounded-3xl">
+    <div className="container mx-auto h-screen flex items-center justify-center border-b-1 border-fuchsia-500 rounded-3xl">
       <div className="text-slate-600 mt-2 text-pretty text-balance tracking-tight text-center">
         <h1 className="text-4xl md:text-6xl text-slate-800 font-bold mb-2">EleganZ By In-Outfits</h1>
         <h3 className="italic text-lg md:text-4xl text-slate-800 font-semibold mb-8">....elegance in outfits....</h3>
