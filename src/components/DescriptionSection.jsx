@@ -9,7 +9,7 @@ export const DescriptionSection = () => {
           <h3 class="text-2xl sm:text-4xl md:text-5xl text-slate-800 font-semibold md:font-bold md:mt-2 tracking-tight text-pretty lg:text-balance md:mb-4">What we do</h3>
           <p className="text-md text-pretty tracking-tight">We have the best outfits for any outing, and any occassion. You are styled by the best in the industry. What look do you want; from native attires, formal attires, casuals, semi-formals. We give you the look that you desire. With trending styles, you have no choice but to be eleganZ</p>
         </div>
-        <div class="mx-auto mt-16 max-w-2xl sm:mt-18 lg:mt-20 lg:max-w-4xl">
+        <div class="mx-auto justify-center mt-16 max-w-2xl sm:mt-18 lg:mt-20 lg:max-w-4xl">
           <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             <div class="relative pl-16">
               <dt class="mt-2 text-md text-pretty tracking-tight text-slate-800 font-semibold">

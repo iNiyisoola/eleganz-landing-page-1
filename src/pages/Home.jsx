@@ -2,9 +2,9 @@ import { CTASection } from "../components/CTASection";
 import { DescriptionSection } from "../components/DescriptionSection";
 import { Footer } from "../components/Footer";
 import { HeroSection } from "../components/HeroSection";
-import { LoginSection } from "../components/LoginSection";
 import { NavBar } from "../components/NavBar";
-import { SignUpSection } from "../components/SignUpSection";
+import { Login } from "./Login";
+import { SignUp } from "./Signup";
 
 export const Home = () => {
 
@@ -14,8 +14,8 @@ export const Home = () => {
       <HeroSection />
       <DescriptionSection />
       <CTASection />
-      <SignUpSection />
-      <LoginSection />
+      <SignUp />
+      <Login />
       <Footer />
     </main>
   );
